@@ -3,8 +3,8 @@ locals {
 
   comman_tags = {
     Project     = "Enterprise"
-    Environment = "Development"
-    Owner       = "Manjunath"
+    Environment = "Dev"
+    Owner       = "Balasuubramani"
     Team        = "Cloud"
     Managedby   = "Terraform"
     Location    = "NA"
