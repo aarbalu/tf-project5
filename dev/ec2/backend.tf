@@ -1,8 +1,8 @@
 terraform {
  backend "s3" {
-   bucket = "terraform-s3-backend-prod-tfstate-us"
+   bucket = "terra-project1-vpc-tfstate"
    key = "tf-project-5/ec2.tfstate"
-   region = "us-east-1"
+   region = "ap-south-1"
    encrypt = true
  }
 }

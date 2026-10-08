@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'develop', url: 'https://github.com/manju230/tf-project-5.git'
+                git branch: 'development', url: 'https://github.com/aarbalu/tf-project5.git'
             }
         }
 
